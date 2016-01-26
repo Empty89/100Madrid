@@ -1,0 +1,14 @@
+<header class="navbar-fixed">
+	<nav class="light-blue">
+	    <div class="container nav-wrapper">
+	      <%= link_to "100Madrid", root_path, class: "brown-text text-lighten-5 brand-logo" %>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons brown-text text-lighten-5">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <%= link_to "About", about_path, class: "brown-text text-lighten-5" %>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <%= link_to "About", about_path, class: "grey-text text-darken-4" %>
+	      </ul>
+	    </div>
+	</nav>
+</header>
