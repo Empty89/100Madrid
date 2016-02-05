@@ -29,6 +29,7 @@
 
   .col-servizio{
     margin-top: 60px;
+    margin-bottom: 100px;
   }
 
   .material-icons.md-18 { font-size: 18px; }
@@ -36,6 +37,10 @@
   .material-icons.md-36 { font-size: 36px; }
   .material-icons.md-48 { font-size: 48px; }
   .material-icons.md-60 { font-size: 60px; }
+
+  #how_it_works p {
+    font-size: 1.1em;
+  }
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
